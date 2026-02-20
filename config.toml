@@ -1,0 +1,3 @@
+[pipeline]
+threads = 4
+retry = 3
