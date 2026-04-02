@@ -1,3 +1,9 @@
 [pipeline]
-threads = 4
-retry = 3
+name = "Distributed-ML-Ops"
+version = "0.1.0"
+author = "Morgan T. Sterling"
+
+[settings]
+max_workers = 8
+timeout = 3600
+retry_limit = 3
